@@ -30,7 +30,7 @@ export default function Modal({ isOpen, message, type = 'info', onClose, onConfi
               onClick={onConfirm}
               className={`${bgColor} text-white px-4 py-2 rounded`}
             >
-              ยืนยัน 222
+              ยืนยัน 444
             </button>
             <button
               onClick={onClose}
