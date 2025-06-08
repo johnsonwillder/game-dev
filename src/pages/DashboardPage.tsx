@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react';
-import { useAuth } from '../hooks/useAuth';
+import { useAuth } from '../features/auth/hooks/useAuth';
 import { useNavigate } from 'react-router-dom';
-import Navbar from '../components/Navbar';
-import Modal from '../components/Modal';
-import BottomNavigation from '../components/BottomNavigation';
+import Navbar from '../components/common/Navbar';
+import Modal from '../components/common/Modal';
+import BottomNavigation from '../components/common/BottomNavigation';
 
 export default function DashboardPage() {
   const { token, setToken } = useAuth();
